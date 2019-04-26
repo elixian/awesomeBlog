@@ -1,0 +1,25 @@
+
+h3{
+    display: inline-block;
+    max-width: 50%;
+}
+.btn-success {
+    margin-right:1rem;
+}
+.date{
+    color: #cacaca;
+    float: right;
+    margin: 2rem;
+   
+}
+.clearfix:before{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.content{
+    margin:1rem;
+}
