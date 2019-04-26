@@ -4,5 +4,10 @@ export class Post{
     content: string;
     loveIts: number;
     created_at: Date;
-    
+
+    constructor(){
+       
+    }
+
+  
 }

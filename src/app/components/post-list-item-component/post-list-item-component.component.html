@@ -1,6 +1,6 @@
 <div class="header-item">
 <h3>{{itemPost.title}}</h3>
-<span class='date '>{{itemPost.created_at | date }}</span>
+<span class='date '>{{itemPost.created_at |date :'MM/dd/yyyy, h:mm a' }}</span>
 </div>
 <div class="content clearfix">{{itemPost.content}}</div>
 <button type="button" class="btn btn-success" (click)=addLike()>Love It</button>
